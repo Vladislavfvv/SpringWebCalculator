@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>Operations for ${sessionScope.currentUser.firstName}:</h1>
-<s:forEach items="operationList" var="operation">
+<s:forEach items="${operationList}" var="operation">
     <ul>
         <li>
             ${operation}

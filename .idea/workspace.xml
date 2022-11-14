@@ -9,37 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52abe896-846a-4ee7-938e-b357af28639a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/configuration/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/configuration/interceptor/RegistrationInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/configuration/interceptor/SecurityInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/entity/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/OperationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/storage/CrudDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/storage/InMemoryOperationStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/storage/InMemoryUserStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/storage/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/web/WebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/tms/web/controller/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/authorisation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/calculator.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/logout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/registration.jsp" afterDir="false" />
+    <list default="true" id="52abe896-846a-4ee7-938e-b357af28639a" name="Changes" comment="Create calculator">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/tms/entity/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/tms/entity/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/history.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,8 +179,17 @@
       <workItem from="1667762820762" duration="6545000" />
       <workItem from="1667896480022" duration="12895000" />
       <workItem from="1667931498274" duration="13000" />
-      <workItem from="1668083117030" duration="3744000" />
+      <workItem from="1668083117030" duration="5090000" />
+      <workItem from="1668100357074" duration="1361000" />
     </task>
+    <task id="LOCAL-00001" summary="Create calculator">
+      <created>1668087001178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668087001178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,5 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Create calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create calculator" />
   </component>
 </project>

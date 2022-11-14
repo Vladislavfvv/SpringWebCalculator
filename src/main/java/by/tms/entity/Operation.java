@@ -20,4 +20,17 @@ public class Operation extends Entity {
     private double result;
     private User user;
     private LocalDateTime date;
+
+    @Override
+    public String toString() {
+        return "Operation{" +
+                "id=" + id +
+                ", num1=" + num1 +
+                ", num2=" + num2 +
+                ", operation='" + operation + '\'' +
+                ", result=" + result +
+                ", user=" + user +
+                ", date=" + date +
+                '}';
+    }
 }
